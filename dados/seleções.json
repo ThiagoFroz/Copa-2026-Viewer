@@ -1,0 +1,19 @@
+{
+    "Brasil": {
+        "tecnico": "Carlo Ancelotti",
+        "titulos": 5,
+        "ranking": 5
+    },
+
+    "Argentina": {
+        "tecnico": "Lionel Scaloni",
+        "titulos": 3,
+        "ranking": 1
+    },
+
+    "Franca": {
+        "tecnico": "Didier Deschamps",
+        "titulos": 2,
+        "ranking": 3
+    }
+}
