@@ -1,5 +1,4 @@
-import requests
+from src.menu import menu
 
-resposta = requests.get("https://api.github.com")
-
-print("Status:", resposta.status_code)
+if __name__ == "__main__":
+    menu()
