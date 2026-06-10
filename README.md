@@ -20,7 +20,7 @@ Projeto desenvolvido em Python para consultar informações da Copa do Mundo uti
 Clone o repositório:
 
 ```bash
-git clone https://github.com/SEU_USUARIO/copa-2026-viewer.git
+git clone https://github.com/ThiagoFroz/copa-2026-viewer.git
 ```
 
 Entre na pasta:
