@@ -1,4 +1,12 @@
+# Ambiente virtual
+.venv/
+
+# Cache Python
 __pycache__/
 *.pyc
-.venv/
-venv/
+
+# VS Code
+.vscode/
+
+# Sistema Linux
+*.swp

@@ -2,23 +2,17 @@ import requests
 
 API_KEY = "94922ad863484c1ca58891dda9d1f7f7"
 
+HEADERS = {
+    "X-Auth-Token": API_KEY
+}
 
-def buscar_competicoes():
-    url = "https://api.football-data.org/v4/competitions"
 
-    headers = {
-        "X-Auth-Token": API_KEY
-    }
+def obter_copa():
+    url = "https://api.football-data.org/v4/competitions/WC"
 
-    try:
-        resposta = requests.get(url, headers=headers)
+    resposta = requests.get(url, headers=HEADERS)
 
-        if resposta.status_code == 200:
-            return resposta.json()
-
-        print(f"\nErro na API: {resposta.status_code}")
+    if resposta.status_code != 200:
         return None
 
-    except Exception as erro:
-        print(f"\nErro: {erro}")
-        return None
+    return resposta.json()
